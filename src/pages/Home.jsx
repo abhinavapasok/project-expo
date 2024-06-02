@@ -53,11 +53,11 @@ function Home() {
   };
 
   return (
-    <div className="m-10">
-      <h1>My Website</h1>
+    <div className="m-10 flex flex-col justify-center items-center gap-4">
+      <h1 className=" text-4xl text-slate-700"></h1>
 
       <div className="grid gap-4">
-        <div>
+        <div className="flex flex-col items-center">
           <img
             className="h-auto w-full max-w-full rounded-lg object-cover object-center md:h-[480px]"
             src={active.imgelink}
